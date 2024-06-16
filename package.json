@@ -8,7 +8,7 @@
     "pgn-parser": "^2.2.0"
   },
   "scripts": {
-    "start": "tsc && nodemon dist/index.js",
+    "start": "tsc && node dist/index.js",
     "build": "tsc",
     "test": "tsc && node dist/test/reports.js"
   },
